@@ -14,6 +14,7 @@
 		18390E8D1CE9E01300CBFD59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18390E8C1CE9E01300CBFD59 /* Images.xcassets */; };
 		18390E901CE9E01300CBFD59 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18390E8E1CE9E01300CBFD59 /* LaunchScreen.xib */; };
 		18390E9C1CE9E01300CBFD59 /* ___KVOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18390E9B1CE9E01300CBFD59 /* ___KVOTests.m */; };
+		18390EA71CE9E02500CBFD59 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 18390EA61CE9E02500CBFD59 /* Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		18390E951CE9E01300CBFD59 /* 关于 KVOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "关于 KVOTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18390E9A1CE9E01300CBFD59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18390E9B1CE9E01300CBFD59 /* ___KVOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___KVOTests.m"; sourceTree = "<group>"; };
+		18390EA51CE9E02500CBFD59 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		18390EA61CE9E02500CBFD59 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				18390E841CE9E01300CBFD59 /* AppDelegate.m */,
 				18390E861CE9E01300CBFD59 /* ViewController.h */,
 				18390E871CE9E01300CBFD59 /* ViewController.m */,
+				18390EA51CE9E02500CBFD59 /* Model.h */,
+				18390EA61CE9E02500CBFD59 /* Model.m */,
 				18390E891CE9E01300CBFD59 /* Main.storyboard */,
 				18390E8C1CE9E01300CBFD59 /* Images.xcassets */,
 				18390E8E1CE9E01300CBFD59 /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				18390E881CE9E01300CBFD59 /* ViewController.m in Sources */,
 				18390E851CE9E01300CBFD59 /* AppDelegate.m in Sources */,
 				18390E821CE9E01300CBFD59 /* main.m in Sources */,
+				18390EA71CE9E02500CBFD59 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +420,7 @@
 				18390EA11CE9E01300CBFD59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18390EA21CE9E01300CBFD59 /* Build configuration list for PBXNativeTarget "关于 KVOTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				18390EA41CE9E01300CBFD59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
